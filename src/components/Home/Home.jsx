@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { GetTrending } from '../MoviedApi';
 import { Outlet, useLocation } from 'react-router-dom';
-import { Link, ListItem } from './Home.style';
+import { Link, ListItem } from './Home.styled';
 
 function Home() {
   const [trending, setTrending] = useState([]);
