@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { GetSearchMovies } from '../MoviedApi';
 import { useLocation, useSearchParams } from 'react-router-dom';
-import { Button, Form, Input, Link, ListItem } from './Movies.style';
+import { Button, Form, Input, Link, ListItem } from './Movies.styled';
 const Movies = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = useState([]);
